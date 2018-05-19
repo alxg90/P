@@ -8,7 +8,7 @@
         overflow: hidden;
     }
 
-    .main-page-container .search-input-section {
+    .main-page-container .main-search-control {
         position: absolute;
         top: 50%;
         width: 50%;
@@ -18,7 +18,7 @@
     .main-page-container .search-section-background {
         display: flex;
         flex-direction: column;
-        min-height: 101vh;
+        min-height: 102vh;
         background: url('https://source.unsplash.com/1920x1080/?nature') center center;
         position: relative;
         width: 110%;
@@ -31,7 +31,7 @@
             height: 100%;
             position: absolute;
             background-color: black;
-            opacity: 0.5;
+            opacity: 0.4;
         }
 
 header {

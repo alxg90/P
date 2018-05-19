@@ -5,4 +5,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
+.main-page-container .content {
+    padding-top: 20px;
+}
