@@ -1,0 +1,198 @@
+﻿/*                           */
+
+/*body {
+    background: #f5f5f5;
+    color: #69606b;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Raleway', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+.bg-img {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+    .bg-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+.intro-effect:not(.notrans) .bg-img {
+    -webkit-transition-property: top, left, right, bottom;
+    transition-property: top, left, right, bottom;
+}
+
+.intro-effect:not(.notrans) .header h1,
+.intro-effect:not(.notrans) .codrops-top a {
+    -webkit-transition-property: color;
+    transition-property: color;
+}
+
+.intro-effect:not(.notrans) .codrops-demos a {
+    -webkit-transition-property: border-color, color;
+    transition-property: border-color, color;
+}
+
+.intro-effect:not(.notrans) .header p {
+    -webkit-transition-property: color, opacity, -webkit-transform;
+    transition-property: color, opacity, transform;
+}
+
+.intro-effect:not(.notrans) .content > div {
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+}
+
+.intro-effect:not(.notrans) .bg-img,
+.intro-effect:not(.notrans) .header h1,
+.intro-effect:not(.notrans) .codrops-top a,
+.intro-effect:not(.notrans) .codrops-demos a,
+.intro-effect:not(.notrans) .content > div {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.intro-effect:not(.notrans) .header p,
+.intro-effect:not(.notrans) .header p.subline,
+.intro-effect:not(.notrans) .content > div {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.intro-effect.modify:not(.notrans) .header p,
+.intro-effect.modify:not(.notrans) .header p.subline,
+.intro-effect.modify:not(.notrans) .content > div {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.intro-effect .codrops-demos a {
+    color: #fff;
+}
+
+    .intro-effect .codrops-demos a.current-demo {
+        border-color: #fff;
+    }
+
+.intro-effect.modify .codrops-demos a {
+    color: #c03b5d;
+}
+
+    .intro-effect.modify .codrops-demos a.current-demo {
+        border-color: #c03b5d;
+    }
+
+.intro-effect.main-page-container {
+    padding: 45px 30px;
+    height: 100%;
+}
+
+.intro-effect .bg-img {
+    top: -45px;
+    right: -30px;
+    bottom: -45px;
+    left: -30px;
+    background: #514753;
+}
+
+.intro-effect.modify .bg-img {
+    top: 0;
+    right: 0;
+    bottom: 85%;
+    left: 0;
+}
+
+.intro-effect.modify .header h1 {
+    color: #514753;
+}
+
+.intro-effect .header p {
+    color: #514753;
+    opacity: 0;
+    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
+}
+
+.intro-effect.modify .header p {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.intro-effect .content {
+    padding: 0 5em 5em;
+}
+
+.intro-effect .header,
+.intro-effect .content {
+    background: #fff;
+}
+
+    .intro-effect .content > div {
+        opacity: 0;
+        -webkit-transform: translateY(150px);
+        transform: translateY(150px);
+    }
+
+.intro-effect.modify .content > div {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.intro-effect.modify .codrops-top a {
+    color: #514753;
+}*/
+
+/* Delays */
+/*.intro-effect.modify:not(.notrans) .header p:nth-last-child(2) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.intro-effect.modify:not(.notrans) .header p:last-child {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.intro-effect.modify:not(.notrans) .content > div {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.header {
+    position: relative;
+    margin: 0 auto;
+    min-height: 560px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-page-container:not(.notrans) button.trigger {
+    -webkit-transition: opacity 0.3s 0.5s;
+    transition: opacity 0.3s 0.5s;
+}
+
+.main-page-container.modify:not(.notrans) button.trigger {
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}*/
