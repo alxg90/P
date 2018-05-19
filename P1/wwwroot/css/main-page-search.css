@@ -1,0 +1,77 @@
+﻿.main-page-container {
+    overflow: hidden;
+}
+
+    .main-page-container .search-section {
+        position: relative;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+    .main-page-container .search-input-section {
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        left: 25%;
+    }
+
+    .main-page-container .search-section-background {
+        display: flex;
+        flex-direction: column;
+        min-height: 101vh;
+        background: url('https://source.unsplash.com/1920x1080/?nature') center center;
+        position: relative;
+        width: 110%;
+        height: 110%;
+    }
+
+        .main-page-container .search-section-background:before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.75) -10%,rgba(0,0,0,0) 100%);
+    text-align: center;
+    padding: 0.5rem 0 5rem;
+    font-size: 1.25rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-flex;
+}
+
+a {
+    position: relative;
+    padding: 1rem 0 0.5rem;
+    margin: 0 1.5rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+    a:after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) scaleX(0);
+        transform-origin: 50% 50%;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255,255,255,0.8);
+        transition: transform 250ms;
+    }
